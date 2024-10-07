@@ -1,0 +1,38 @@
+* {
+  font-family: monospace;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin: 1rem;
+}
+h1 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+.error {
+  color: crimson;
+}
+form {
+  margin-bottom: 1rem;
+}
+button {
+  height: 2.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #222;
+  color: white;
+  border-radius: 0.25rem;
+}
+button:hover {
+  filter: brightness(200%);
+}
+input {
+  height: 2.5rem;
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  border: 0.125rem #ccc solid;
+  border-radius: 0.25rem;
+}
